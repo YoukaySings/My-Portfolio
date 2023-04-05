@@ -1,3 +1,11 @@
 <template>
-  <div>Hello World!</div>
+  <div>
+    <slider-page/>
+  </div>
 </template>
+
+<script>
+export default {
+
+}
+</script>

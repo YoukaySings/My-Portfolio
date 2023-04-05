@@ -3,14 +3,26 @@
 @tailwind utilities;
 
 body {
-  @apply box-border;
+  @apply box-border bg-[#0b1f33] w-full h-auto min-h-screen md:h-screen text-[#dddad5] flex justify-center items-center;
 }
 * {
   @apply m-0 p-0;
 }
 
 @layer components {
-  .class {
-    @apply m-0 p-0;
+  .container {
+    @apply m-0 p-4 md:p-12 rounded-xl bg-[#0f2a3d];
+  }
+
+  .wrapper {
+    @apply grid grid-cols-1 md:grid-cols-2 justify-center items-center
+  }
+
+  .custom-btn {
+    @apply px-16 py-4 rounded-md bg-[#f3af64] hover:bg-[#f4c05a] text-[#0f2a3d] text-[12px] font-bold
+  }
+
+  .background {
+    @apply bg-contain bg-center bg-no-repeat
   }
 }
