@@ -25,4 +25,8 @@ body {
   .background {
     @apply bg-contain bg-center bg-no-repeat
   }
+
+  .video {
+    @apply w-full
+  }
 }

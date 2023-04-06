@@ -15,16 +15,28 @@
         </div>
 
         <div class="">
-            <h2 class="md:text-[40px] tracking-[3px] uppercase font-bold">Stack and Tools</h2>
+            <h2 class="md:text-[40px] tracking-[3px] uppercase font-bold">Frameworks &amp; Tools</h2>
             <br>
             <div class="capitalize">
                 <h2 class="md:text-[20px] tracking-[3px] uppercase font-bold">web development</h2>
-                <p>html, css, javascript, vue.js, store, nuxt, vuex, tailwind, bootstrap, vuetify, git &amp; github, gitlab</p>
+                <p>html, css, javascript, vue.js, store, nuxt, vuex, tailwindcss, bootstrap, vuetify, git &amp; github, gitlab</p>
             </div>
+
             <br>
             <div class="capitalize">
                 <h2 class="md:text-[20px] tracking-[3px] uppercase font-bold">ui/ux design</h2>
                 <p>dialogue flows &amp; prototyping, user research, user interviews, wireframing, figma, figjam, adobe xd, webflow, sketch, agile ux design</p>
+            </div>
+            <br>
+            <br>
+            <div class="capitalize">
+                <h2 class="md:text-[20px] tracking-[3px] uppercase font-bold">Skills</h2>
+                <p>Problem solving, Interpersonal relation, Object oriented, Design oriented</p>
+            </div>
+            <br>
+            <div class="capitalize">
+                <h2 class="md:text-[20px] tracking-[3px] uppercase font-bold">Languages</h2>
+                <p>javascript</p>
             </div>
         </div>
     </div>
@@ -39,5 +51,6 @@ img{
 p{
     font-size: 14px;
     width: 90%;
+    line-height: 26px;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
-    <div class="wrapper">
-        <div>
+    <div class="wrapper items-start">
+        <div class="h-5/6 overflow-auto">
            <h2 class="md:text-[40px] tracking-[3px] uppercase font-bold">About</h2>
            <br>
             <div class="">
@@ -22,3 +22,11 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+p{
+    font-size: 14px;
+    width: 90%;
+    line-height: 26px;
+}
+</style>
