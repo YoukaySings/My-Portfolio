@@ -3,7 +3,7 @@
         <!-- imo state tax -->
             <div>
                 <video class="video" controls autoplay>
-                  <source src="/videos/imo-state-tax.mov" type="video/mp4">
+                  <source src="/videos/imst.mp4" type="video/mp4">
                 </video>
             <br>    
             <div class="capitalize">
