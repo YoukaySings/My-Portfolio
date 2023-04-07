@@ -1,12 +1,12 @@
 <template>
-    <div class="wrapper items-start">
-        <div class="h-5/6 overflow-auto">
-           <h2 class="md:text-[40px] tracking-[3px] uppercase font-bold">About</h2>
+    <div class="wrapper">
+        <div class="h-6/6 overflow-auto">
+           <h2 class="header">About</h2>
            <br>
             <div class="">
-                <h2 class="md:text-[20px] tracking-[3px] uppercase font-bold">Who is teslim?</h2>
+                <h2 class="md:text-[20px] md:tracking-[3px] uppercase font-bold">Who is teslim?</h2>
                     <br>
-                <p class="lowercase text-[14px]">
+                <p class="lowercase text-[14px] break-all">
                     I AM KNOWN TO BE A HIGHLY-ORGANIZED FRONT-END DEVELOPER, EXPERIENCED IN DESIGN AND TIME MANAGEMENT. I WRITE REUSABLE CODE BLOCKS WITH THE INSTALLATION OF NECESSARY DEPENDENCIES TO BUILD A SEAMLESS, EFFICIENT, AND USER-FRIENDLY WEBSITE. MY SKILLS HAVE BEEN VERY EFFICIENT IN BOTH UI DESIGN AND WEB DEVELOPMENT.
                     <br>
                     <br>
@@ -18,15 +18,23 @@
             </div>
         </div>
 
-        <div class="bg-[url('/image-03.svg')] background w-12/12 h-full rounded-lg overflow-hidden">
+        <div class="hidden md:block">
+            <img src="/image-03.svg" alt="">
         </div>
     </div>
 </template>
 
 <style scoped>
 p{
-    font-size: 14px;
-    width: 90%;
+    font-size: 16px;
+    width: 100%;
     line-height: 26px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 16px;
+        width: 100%;
+    }
 }
 </style>

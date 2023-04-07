@@ -1,11 +1,10 @@
 <template>
-  <div>
     <slider-page/>
-  </div>
 </template>
 
-<script>
-export default {
-
-}
-</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+  p, h2, i, button {
+    font-family: 'Montserrat', sans-serif;
+  }
+</style>
