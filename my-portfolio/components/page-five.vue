@@ -18,7 +18,7 @@
         <!-- resume -->
             <div>
                 <video class="video" controls autoplay>
-                  <source src="/videos/resume.mov" type="video/mp4">
+                  <source src="/videos/resume.mp4" type="video/mp4">
                 </video>
             <br>    
             <div class="capitalize">
