@@ -11,7 +11,7 @@
             <br>
             <div class="mt-6 md:mt-8">
                 <NuxtLink to="https://github.com/YoukaySings"><icon class="socialicon mr-8" name="uil:github"/></NuxtLink>
-                <NuxtLink to="https://mail.google.com/mail/u/0/popout?ver=1g3ytthb29lwb#cmid%253D1"><icon class="socialicon" name="uil:envelope"/></NuxtLink>
+                <NuxtLink to="iteslimidris09@gmail.com"><icon class="socialicon" name="uil:envelope"/></NuxtLink>
                 <NuxtLink to="https://www.linkedin.com/in/teslim-idris-7a1695215/"><icon class="socialicon ml-8" name="uil:linkedin"/></NuxtLink>
             </div>
             <NuxtLink to="https://docs.google.com/document/d/e/2PACX-1vTOyt24_tCV-ZwTqlUDl0EKEiPfJZwLoX9svu53EqvMopGGyETWdL44mOThQtV6zXcM9KnuUwsMLhZv/pub" class="hidden md:inline-flex">

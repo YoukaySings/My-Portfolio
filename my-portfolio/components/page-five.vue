@@ -7,7 +7,7 @@
                 </video>
             <br>    
             <div class="capitalize">
-                <h2 class="md:text-[20px] md:tracking-[3px] uppercase font-bold">Imo state tax automation and administration solution system/website</h2>
+                <h2 class="sub-header">Imo state tax automation and administration solution system/website</h2>
                 <br>
                 <p><b>Role:</b> Front-End Developer &amp; UI/UX Designer</p>
                 <p><b>Technologies:</b> Figma, Vue.js, Nuxt, Vuetify, Tailwindcss, Git and GitLab.</p>
@@ -22,7 +22,7 @@
                 </video>
             <br>    
             <div class="capitalize">
-                <h2 class="md:text-[20px] md:tracking-[3px] uppercase font-bold">Resume Website</h2>
+                <h2 class="sub-header">Resume Website</h2>
                 <br>
                 <p><b>Role:</b> Creator</p>
                 <p><b>Technologies:</b> Figma, Vue.js, Nuxt, Tailwindcss, Git and Github.</p>

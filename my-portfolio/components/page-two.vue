@@ -16,12 +16,12 @@
             <br>
             <div class="capitalize">
                 <h2 class="md:text-[20px] md:tracking-[3px] uppercase font-bold">Skills</h2>
-                <p>Problem solving, Interpersonal relation, Object oriented, Design oriented</p>
+                <p>Analytical &amp; Problem-solving, Time management, Interpersonal relation, Object oriented, Design oriented</p>
             </div>
             <br>
             <div class="capitalize">
                 <h2 class="md:text-[20px] md:tracking-[3px] uppercase font-bold">Languages</h2>
-                <p>javascript</p>
+                <p>Javascript, Typescript</p>
             </div>
         </div>
         <div class="flex justify-center items-center">

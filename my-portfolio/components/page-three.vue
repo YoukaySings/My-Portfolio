@@ -4,7 +4,7 @@
            <h2 class="header">About</h2>
            <br>
             <div class="">
-                <h2 class="md:text-[20px] md:tracking-[3px] uppercase font-bold">Who is teslim?</h2>
+                <h2 class="sub-header">Who is teslim?</h2>
                     <br>
                 <p class="lowercase text-[14px] break-all">
                     I AM KNOWN TO BE A HIGHLY-ORGANIZED FRONT-END DEVELOPER, EXPERIENCED IN DESIGN AND TIME MANAGEMENT. I WRITE REUSABLE CODE BLOCKS WITH THE INSTALLATION OF NECESSARY DEPENDENCIES TO BUILD A SEAMLESS, EFFICIENT, AND USER-FRIENDLY WEBSITE. MY SKILLS HAVE BEEN VERY EFFICIENT IN BOTH UI DESIGN AND WEB DEVELOPMENT.

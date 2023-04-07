@@ -37,4 +37,8 @@ body {
   .header {
     @apply text-[24px] md:text-[40px] md:tracking-[3px] uppercase font-bold
   }
+
+  .sub-header {
+    @apply md:text-[20px] md:tracking-[3px] uppercase font-bold
+  }
 }

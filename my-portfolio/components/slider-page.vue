@@ -6,6 +6,7 @@
         <swiper-slide><page-three/></swiper-slide>
         <!-- <swiper-slide><page-four/></swiper-slide> -->
         <swiper-slide><page-five/></swiper-slide>
+        <swiper-slide><page-six/></swiper-slide>
     </swiper>
   </div>
 </template>
