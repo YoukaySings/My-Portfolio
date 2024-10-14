@@ -3,27 +3,39 @@
 @tailwind utilities;
 
 body {
-  @apply box-border bg-[#0b1f33] w-full min-h-screen text-[#dddad5] sm:flex sm:justify-center sm:items-center
+  @apply box-border bg-[#ffffff] transition duration-300 ease-in-out w-full min-h-screen text-[#0f0905] sm:flex sm:justify-center sm:items-center
 }
 * {
   @apply m-0 p-0;
 }
 
+p {
+  @apply leading-loose
+}
+
 @layer components {
   .container {
-    @apply h-auto overflow-auto m-0 p-4 md:p-6 lg:p-8 bg-[#16181d] md:bg-[#0f2a3d];
+    @apply h-auto overflow-auto m-0 p-4 md:p-6 lg:p-0 md:pt-0 pb-0 bg-[#ffffff];
   }
 
   .wrapper {
-    @apply grid md:grid-cols-2 gap-6 md:justify-center
+    @apply grid md:grid-cols-2 gap-6 md:justify-center h-screen
+  }
+
+  .card {
+    @apply p-3 rounded-md w-full grid grid-cols-2 place-content-center items-center h-[100px]
+  }
+
+  .card p {
+    @apply lg:pl-[140px]
+  }
+
+  .card h2 {
+    @apply md:text-[24px] md:tracking-[3px] uppercase font-bold border-l-2 border-[#0f0905] pl-8 h-[100px] flex items-center
   }
 
   .custom-btn {
-    @apply px-16 py-4 rounded-md bg-[#f3af64] hover:bg-[#f4c05a] text-[#0f2a3d] text-[12px] font-bold
-  }
-
-  .mobile-custom-btn {
-    @apply px-16 py-4 rounded-md text-gray-100 bg-[#000000] hover:bg-[#0b0f14] text-[12px] font-bold
+    @apply px-20 py-10 bg-[#0f0905] hover:bg-[#fff] text-[#fff] hover:text-[#0f0905] hover:border duration-300 text-[12px] font-bold
   }
 
   .background {
@@ -35,10 +47,44 @@ body {
   }
 
   .header {
-    @apply text-[24px] md:text-[40px] md:tracking-[3px] uppercase font-bold
+    @apply text-[24px] md:tracking-[3px] uppercase font-bold
   }
 
   .sub-header {
     @apply md:text-[20px] md:tracking-[3px] uppercase font-bold
   }
+
+   .gridCenter {
+    @apply grid place-items-center gap-3
+   }
+
+  
+
+   /* projects */
+
+   .p-header {
+    @apply md:text-[32px] tracking-[3px] uppercase font-bold
+   }
+
+   .projectBtn {
+      @apply px-10 py-5 bg-[#0f0905] text-[#fff] text-[12px] font-bold
+    }
+
+    .projectBtn-wrapper {
+      @apply w-full h-full hidden group-hover:inline-flex bg-[#0f090577] gridCenter transition-transform duration-500 ease-in-out transform hover:scale-105
+    }
+
+    .projectBtn-group {
+      @apply w-full h-[200px] md:h-[300px] bg-gray-300 rounded-md overflow-hidden transition-opacity duration-500 ease-in-out
+    }
+
+
+   /* pop-up */
+   .pop-up-outer {
+    @apply fixed inset-0 bg-gray-200 bg-opacity-90 flex justify-center items-center z-50
+   }
+
+   .pop-up-inner {
+    @apply bg-white p-8 rounded-lg shadow-lg w-8/12 h-3/4 overflow-scroll
+   }
 }

@@ -1,16 +1,39 @@
 <template>
-  <div class="md:flex md:justify-center md:items-center w-12/12 container">
+  <!-- <div class="md:flex md:justify-center md:items-center w-12/12 container">
     <swiper autoplay :pagination="true" :modules="modules" >
         <swiper-slide><page-one/></swiper-slide>
         <swiper-slide><page-two/></swiper-slide>
         <swiper-slide><page-three/></swiper-slide>
-        <!-- <swiper-slide><page-four/></swiper-slide> -->
+        <swiper-slide><page-four/></swiper-slide>
         <swiper-slide><page-five/></swiper-slide>
         <swiper-slide><page-six/></swiper-slide>
     </swiper>
+  </div> -->
+
+  <!-- without slider -->
+  <div class="w-12/12 container">
+    <page-one />
+    <page-two/>
+    <page-three/>
+    <page-four />
+    <page-five />
   </div>
 </template>
-<script>
+
+<!-- <script>
+export default {
+  components: {
+      Swiper,
+      SwiperSlide,
+    },
+    
+    setup() {
+      return {
+        modules: [Pagination, Autoplay],
+      };
+    },
+};
+
   // Import Swiper Vue.js components
   import { Swiper, SwiperSlide } from 'swiper/vue';
 
@@ -21,18 +44,4 @@
 
   // import required modules
   import { Pagination, Autoplay } from 'swiper';
-
-  export default {
-    components: {
-      Swiper,
-      SwiperSlide,
-    },
-
-
-    setup() {
-      return {
-        modules: [Pagination, Autoplay],
-      };
-    },
-  };
-</script>
+</script> -->

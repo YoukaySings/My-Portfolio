@@ -1,49 +1,53 @@
 <template>
-    <div class="wrapper gap-16 md:gap-8 items-start">
-        <!-- imo state tax -->
+   <div class="h-auto">
+
+      <div class="wrapper h-screen grid place-items-center place-content-center gap-10">
+         <div>
+            <h2 class="header text-right">Projects</h2>
+            <p>I create beautiful websites your users will love</p>
+            
+         </div>
+         <div class="grid grid-cols-2 gap-6 uppercase">
+            <!-- Calculator -->
             <div>
-                <video class="video" controls autoplay>
-                  <source src="/videos/imst.mp4" type="video/mp4">
-                </video>
-            <br>    
-            <div class="capitalize">
-                <h2 class="sub-header">Imo state tax automation and administration solution system/website</h2>
-                <br>
-                <p><b>Role:</b> Front-End Developer &amp; UI/UX Designer</p>
-                <p><b>Technologies:</b> Figma, Vue.js, Nuxt, Vuetify, Tailwindcss, Git and GitLab.</p>
-                <NuxtLink to="https://imostate.tax/index" class="underline text-blue-600 cursor-pointer lowercase">Take a tour</NuxtLink>
-            </div>
+               <!-- <div class="w-full h-[120px] md:h-[200px] bg-gray-300 rounded-md mb-2"> -->
+               <!-- </div> -->
+               <p class="font-bold text-[12px]">SunnySide Landing Page</p>
+               <p>HTML, CSS, JS</p>
             </div>
 
-        <!-- resume -->
+            <!-- Calculator -->
             <div>
-                <video class="video" controls autoplay>
-                  <source src="/videos/resume.mp4" type="video/mp4">
-                </video>
-            <br>    
-            <div class="capitalize">
-                <h2 class="sub-header">Resume Website</h2>
-                <br>
-                <p><b>Role:</b> Creator</p>
-                <p><b>Technologies:</b> Figma, Vue.js, Nuxt, Tailwindcss, Git and Github.</p>
-                <NuxtLink to="/" class="underline text-blue-600 cursor-pointer lowercase">Take a tour</NuxtLink>
+               <!-- <div class="w-full h-[120px] md:h-[200px] bg-gray-300 rounded-md mb-2"> -->
+               <!-- </div> -->
+               <p class="font-bold text-[12px]">Calculator</p>
+               <p>HTML, CSS, JS</p>
             </div>
+
+            <!-- Calculator -->
+            <div>
+               <!-- <div class="w-full h-[120px] md:h-[200px] bg-gray-300 rounded-md mb-2"> -->
+               <!-- </div> -->
+               <p class="font-bold text-[12px]">To-Do List</p>
+               <p>HTML, CSS, JS</p>
             </div>
-    </div>
+
+            <!-- Calculator -->
+            <div>
+               <!-- <div class="w-full h-[120px] md:h-[200px] bg-gray-300 rounded-md mb-2"> -->
+               <!-- </div> -->
+               <p class="font-bold text-[12px]">Simple Sign in & Sign up page</p>
+               <p>Vue.js, Tailwind CSS</p>
+            </div>
+            
+         </div>
+      </div>
+
+      <div>
+         <taas/>
+         <Maxcoach/>
+         <blog/>
+         <portfolio/>
+      </div>
+   </div>
 </template>
-
-<style scoped>
-p{
-    font-size: 16px;
-    width: 100%;
-    line-height: 26px;
-    margin-bottom: 4px;
-}
-
-@media (max-width: 768px) {
-    p {
-        font-size: 16px;
-        width: 100%;
-    }
-}
-</style>
