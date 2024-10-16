@@ -1,5 +1,5 @@
 <template>
-    <div class="h-screen gridCenter">
+    <div class="h-auto md:h-screen gridCenter mb-[100px] md:mb-[140px]">
 
          <!-- icon images -->
          <!-- <div class="flex justify-center items-center">
@@ -16,7 +16,7 @@
             </div>
         </div> -->
 
-        <div class="h-full flex flex-col justify-between">
+        <div class="h-full flex flex-col justify-between gap-4">
             <div class="capitalize card">
                 <p>html, css, javascript, vue.js, store, nuxt, vuex, tailwindcss, bootstrap, vuetify, git &amp; github, gitlab</p>
                 <h2 class="circle relative flex items-end">web development</h2>
@@ -25,7 +25,6 @@
             <div class="capitalize card">
                 <p>dialogue flows &amp; prototyping, UX Writing, user research, user interviews, wireframing, figma, figjam, adobe xd, webflow, sketch, agile ux design</p>
                 <h2 class="circle relative flex items-end">ui/ux design</h2>
-
             </div>
             <br>
             <div class="capitalize card">

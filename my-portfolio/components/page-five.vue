@@ -1,11 +1,10 @@
 <template>
    <div class="h-auto">
 
-      <div class="wrapper h-screen grid place-items-center place-content-center gap-10">
-         <div>
-            <h2 class="header text-right">Projects</h2>
+      <div class="wrapper h-screen grid md:place-items-center place-content-center gap-10">
+         <div class="md:text-right">
+            <h2 class="header">Projects</h2>
             <p>I create beautiful websites your users will love</p>
-            
          </div>
          <div class="grid grid-cols-2 gap-6 uppercase">
             <!-- Calculator -->

@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper place-items-center">
-        <div class="w-6/12 grid gap-3">
-        <div class="">
+        <div class="w-10/12 md:w-8/12 grid gap-3">
+        <div>
            <h2 class="header">TAAS - Tax Automation and Administration Solution System (Imo State)</h2>
         </div>
 

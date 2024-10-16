@@ -11,12 +11,14 @@
   </div> -->
 
   <!-- without slider -->
-  <div class="w-12/12 container">
+  <div class="w-12/12 gridCenter">
     <page-one />
+    <div class="container">
     <page-two/>
     <page-three/>
     <page-four />
     <page-five />
+    </div>
   </div>
 </template>
 
